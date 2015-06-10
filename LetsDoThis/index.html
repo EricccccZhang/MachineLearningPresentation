@@ -5,7 +5,6 @@
 
 
     <meta charset="utf-8">
-	  <title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
 	  <meta name="description" content="">
 	  <meta name="author" content="">
 
@@ -40,8 +39,8 @@
             <li><a class="smoothscroll" href="#about">Abstract</a></li>
 	         <li><a class="smoothscroll" href="#resume">Preprocessing</a></li>
             <li><a class="smoothscroll" href="#portfolio">Training</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Comparison</a></li>
-            <li><a class="smoothscroll" href="#contact">Result</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Performance Test</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -50,14 +49,10 @@
          <div class="banner-text">
             <h1 class="responsive-headline">License Plate Recognition</h1>
 
-            <h3><span>Tianyuan Zhao</span> xhb083
-            <br>
-            <span>Xiangtai Hou</span> xhb083
-            <br>
-            <span>Hanxiong Zhang</span> xhb083
-            <br>
+            <h3>
             Let's <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about our project</a>.</h3>
+            
 <!--             <hr/> -->
 
          </div>
@@ -86,8 +81,10 @@
 
             <h2>Abstract</h2>
 
-            <p>Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.
-              Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.
+            <p font = '16'>Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.
+            Our training set has <a class="smoothscroll" >252</a> pictures and our validation set has <a class="smoothscroll" >50</a> pictures.</p>
+            <p>We use two machine learning methods. Neural Network and KNN.
+            KNN achieves a <a class="smoothscroll" >70%</a> accuracy for prediction while Neural Network only has a accuracy of <a class="smoothscroll">30%</a>
             </p>
 
 
@@ -641,9 +638,9 @@
 
             <div class="ten columns">
 
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <p class="lead">
+                    If you have any advice, please email to us.
+                    We are looking forward to your voice.
                   </p>
 
             </div>
@@ -651,93 +648,37 @@
          </div>
 
          <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
+            <div class="four columns footer-widgets">
 
                <div class="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>Team</h4>
 					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
+						   <li>Hanxiong Zhang,EECS 2015',NU</li>
+						   <li>Xiangtai Hou,EECS 2015',NU</li>
+						   <li>Tianyuan Zhao,EECS 2015',NU</li>
+						   <span>contact:   zhanghx.eric@gmail.com</span>
 					   </p>
 
 				   </div>
 
                <div class="widget widget_tweets">
 
-                  <h4 class="widget-title">Latest Tweets</h4>
+                  <h4 class="widget-title">Meta data</h4>
 
                   <ul id="twitter">
                      <li>
                         <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        This is a course project for EECS 349 Machine Learning course,Northwestern University,2015 spring. We enjoy it a lot.
+                        <li>For more info,please refer to:
+                        <a href="http://www.cs.northwestern.edu/~ddowney/courses/349_Spring2015/">Machine Learning (EECS 349)</a></li>
                         </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
                      </li>
                   </ul>
 
 		         </div>
 
-            </aside>
+            </div>
 
       </div>
 
@@ -751,22 +692,6 @@
       <div class="row">
 
          <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-            </ul>
-
          </div>
 
          <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
