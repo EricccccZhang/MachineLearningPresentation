@@ -71,27 +71,22 @@
 
       <div class="row">
 
-<!--          <div class="three columns">
-
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col"> -->
-
             <h2>Abstract</h2>
 
-            <p font = '16'>Our task is to recognize the characters (including letters and numbers) on license plates based on pictures of vehicle with a license plate.
-            Our training set has <a class="smoothscroll" >252</a> pictures and our validation set has <a class="smoothscroll" >50</a> pictures.</p>
-            <p>We use two machine learning methods. Neural Network and KNN.
-            KNN achieves a <a class="smoothscroll" >70%</a> accuracy for prediction while Neural Network only has a accuracy of <a class="smoothscroll">30%</a>
-            </p>
-
-
-<!-- 
-         </div> 
- -->
-
+            <p font = '16'>
+            <br>a. &nbsp;Project title: License Plate Recognition 
+            <br>b. &nbsp;Member: Zhang Hanxiong, Hou Xiangtai, Tianyuan Zhao
+            <br>c. &nbsp;Email:&nbsp;zhanghx.eric@gmail.com
+            <br>d. &nbsp;Course Name:EECS 349, Northwestern Univ.,2015 Spring
+            <br>e.
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.motivation: We want to develop a system which could automatically detect and recognize a car's license plate. If this could be used in real industry, we believe it has a large potential of use. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.solution: We use two machine learning methods. Neural Network and KNN.Using Neural Network and KNN methods to recognize, under Matlab.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii.how we train and test it??: Because KNN is lazy, we don't train it. For Neural Network,We use Neural Network Toolbox of MATLAB to train and test.Our training set has <a class="smoothscroll" >252</a> pictures and our validation set has <a class="smoothscroll" >50</a> pictures.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv.result: KNN achieves a <a class="smoothscroll" >70%</a> accuracy for prediction while Neural Network only has a accuracy of <a class="smoothscroll">30%</a>
+            <br>f.&nbsp; example:
+            <br><img src="images\abstract\example.jpg">
+            <br>We only consider English characters and Arabic numbers. In this case, KNN recognizes correctly. Neural Network only recognize 2 characters correctly.
+          </p>
 
       </div>
 
@@ -102,8 +97,6 @@
    ================================================== -->
    <section id="resume">
 
-      <!-- Education
-      ----------------------------------------------- -->
       <div class="row education">
 
          <div class="twelve columns">
@@ -330,6 +323,130 @@
 
                   </div>
               </div>  <!-- item end -->
+          <div id="modal-01" class="popup-modal mfp-hide">
+          <img class="scale-with-grid" src="images\validset\original.jpg" alt="" />
+          <div class="description-box">
+            <h4>inputting a image</h4>
+               <span class="categories"><i class="fa fa-tag"></i>step1: inputting a image</span>
+          </div>
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+        </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images\validset\1.jpg" alt="" />
+
+          <div class="description-box">
+            <h4>result after gray scale</h4>
+            <p>Grayscale is a range of shades of gray without apparent color. The darkest possible shade is black, which is the total absence of transmitted or reflected light. The lightest possible shade is white, the total transmission or reflection of light at all visible wavelength s. Intermediate shades of gray are represented by equal brightness levels of the three primary colors (red, green and blue) for transmitted light, or equal amounts of the three primary pigments (cyan, magenta and yellow) for reflected light.</p>
+               <span class="categories"><i class="fa fa-tag"></i>step2: gray scale</span>
+          </div>
+
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images\validset\2.jpg" alt="" />
+
+          <div class="description-box">
+            <h4>result after median filter</h4>
+            <p>In signal processing, it is often desirable to be able to perform some kind of noise reduction on an image or signal. The median filter is a nonlinear digital filtering technique, often used to remove noise. Such noise reduction is a typical pre-processing step to improve the results of later processing.</p>
+               <span class="categories"><i class="fa fa-tag"></i>step3: median filter</span>
+          </div>
+
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images\validset\3.jpg" alt="" />
+
+          <div class="description-box">
+            <h4>result after edge detection</h4>
+            <p>Edge detection identifies object boundaries within images.</p>
+               <span class="categories"><i class="fa fa-tag"></i>step4: edge detection</span>
+          </div>
+
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images\validset\4.jpg" alt="" />
+
+          <div class="description-box">
+            <h4>result after dilation and erosion</h4>
+            <p>Morphology is a broad set of image processing operations that process images based on shapes. 
+            The most basic morphological operations are dilation and erosion. Dilation adds pixels to the boundaries of objects in an image, while erosion removes pixels on object boundaries. The number of pixels added or removed from the objects in an image depends on the size and shape of the structuring element used to process the image. In the morphological dilation and erosion operations, the state of any given pixel in the output image is determined by applying a rule to the corresponding pixel and its neighbors in the input image. The rule used to process the pixels defines the operation as a dilation or an erosion. This table lists the rules for both dilation and erosion.</p>
+               <span class="categories"><i class="fa fa-tag"></i>step5: image dilation and erosion</span>
+          </div>
+
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images\validset\5.jpg" alt="" />
+
+          <div class="description-box">
+            <h4>result after smoothing</h4>
+            <p>Smoothing, also called blurring, is a simple and frequently used image processing operation.
+            There are many reasons for smoothing. In this tutorial we will focus on smoothing in order to reduce noise.</p>
+               <span class="categories"><i class="fa fa-tag"></i>step6: image smoothing</span>
+          </div>
+
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images\validset\7.jpg" alt="" />
+
+          <div class="description-box">
+            <h4>result after remove noisy points</h4>
+            <p>Removing small noisy points.</p>
+               <span class="categories"><i class="fa fa-tag"></i>step7: remove noisy points</span>
+          </div>
+
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images\validset\7.jpg" alt="" />
+
+          <div class="description-box">
+            <h4>result after segmentation</h4>
+            <p>Segment the whole pictures into several single characters.</p>
+               <span class="categories"><i class="fa fa-tag"></i>step8: image segmentation</span>
+          </div>
+
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-01 End -->
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -346,151 +463,29 @@
    ================================================== -->
    <section id="portfolio">
 
-      <div class="row">
+      <div class="row" style="margin:auto;">
 
          <div class="twelve columns collapsed">
 
             <h1 style="font-size:350%">Training</h1>
+            <h1 style="font-size:100%">(only for Neural Network)</h1>
+            <h1 style= "font-size:250%">Training Video</h1>
+           <iframe width="1024" height="768"align="middle" src="https://www.youtube.com/embed/Sdgnkm3p0Lg" frameborder="0" allowfullscreen></iframe>
+            </iframe>
+            <br>
+            <br>
+            <h1 style= "font-size:250%">Training Result</h1>
+            <div style="margin:auto;width:400px;"><img src="images\training\1.jpg"></div>
+            <table align="center">
 
-            <!-- portfolio-wrapper -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/original.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Original picture</h4>
-			      <p>This is just the original input picture. It could be any size as long as it is .jpg file. Our program could automatically detect the position of license plate.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step1, inputting a picture</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/1.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>result after gray scale</h4>
-			      <p>In photography and computing, a grayscale or greyscale digital image is an image in which the value of each pixel is a single sample, that is, it carries only intensity information. Images of this sort, also known as black-and-white, are composed exclusively of shades of gray, varying from black at the weakest intensity to white at the strongest.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step2, gray scale</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/2.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>result after median filter</h4>
-			      <p>Median filter is a nonlinear digital filtering technique, often used to remove noise. Such noise reduction is a typical pre-processing step to improve the results of later processing (for example, edge detection on an image). Median filtering is very widely used in digital image processing because, under certain conditions, it preserves edges while removing noise.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step3: median filter</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/3.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>result after edge detection</h4>
-			      <p>Edge detection identifies object boundaries within images.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step4: edge detection</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/4.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>result after dilation and erosion</h4>
-			      <p>Erosion is one of two fundamental operations (the other being dilation) in morphological image processing from which all other morphological operations are based. It was originally defined for binary images, later being extended to grayscale images, and subsequently to complete lattices.</p>
-            <p>Dilation is one of the basic operations in mathematical morphology. Originally developed for binary images, it has been expanded first to grayscale images, and then to complete lattices.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step5: dilation and erosion</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/5.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>result after image smoothing</h4>
-			      <p>Smoothing is often used to reduce noise within an image or to produce a less pixelated image..</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step6: image smoothing </span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/6.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>result after removing noisy points</h4>
-			      <p>One goal in image restoration is to remove the noise from the image in such a way that the "original" image is discernible. Of course, "noise" is in the eye of the beholder; removing the "noise" from a Jackson Pollack painting would considerably reduce its value. Nonetheless, one approach is to decide that features that exist on a very small scale in the image are noise, and that removing these while maintaining larger features might help "clean things up".</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step7: removing noisy points</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/validset/7.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>result after segmentation</h4>
-			      <p>For character recognition, we first need to segment the original picture to several single characters.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Step8: segmenting single character</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
+            <tr>
+            <th><img src="images\training\2.jpg"></th>
+            <th><img src="images\training\3.jpg"></th>
+            <th><img src="images\training\4.jpg"></th>
+            </tr>
+            </table>
       </div> <!-- row End -->
+    </div>
 
    </section> <!-- Portfolio Section End-->
 
@@ -499,51 +494,52 @@
    ================================================== -->
    <section id="testimonials">
 
-      <div class="text-container">
+        <div class="row" style="margin:auto;">
 
-         <div class="row">
+         <div class="twelve columns collapsed">
+            <br>
+            <br>
+            <h1 style="font-size:350%" align = "center">Performance Test</h1>
+            <br>
+            <h1 style= "font-size:100%" align = "center">video: a test example</h1>
+           <iframe width="1024" height="768" src="https://www.youtube.com/embed/cAaaA6lb5sg" frameborder="0" allowfullscreen></iframe>
+            <br>
+            <br>
+            <h1 style= "font-size:250%" align = "center">Test Result</h1>
+            <p style= "font-size:150%" align = "center">(Click picture for details)</p>
+            <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-            <div class="two columns header-col">
+                     <a href="#modal-09" title="">
+                        <img alt="" style="height:200px;width:1240px" src="images\training\result.jpg">
+                            <div class="overlay">
+                               <div class="portfolio-item-meta">
+                              <h5>Preprocessing</h5>
+                                  <p>original</p>
+                           </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-plus"></i></div>
+                         </a>
 
-               <h1><span>Client Testimonials</span></h1>
+                         <div id="modal-09">
 
-            </div>
+                         <img src="images/training/result.jpg" alt="" />
 
-            <div class="ten columns flex-container">
+                        <div class="description-box">
+                        <p style= "font-size:250%" align = "middle">Analysis</p>
+                      <p>
+                      <p style= "font-size:150%" align = "middle">Generally, KNN(K=5) has a better performance than Neural Network.</p>
+                      <p style= "font-size:150%"align = "middle">Both of them have high accuracy when characters are more different than the other, like C.</p>
+                      <p style= "font-size:150%"align = "middle">Both of these two methods perform terrible when they try to recognize I, because number 1 looks similar to I.</p>
+                      <p style= "font-size:150%"align = "middle">KNN has higher accuracy dealing with O and S. </p>
+                      <span class="categories"><i class="fa fa-tag"></i>Result Analysis</span>
+                       </div>
 
-               <div class="flexslider">
+                         </div>
+                  </div> <!-- item end -->
 
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
+      </div> <!-- row End -->
+    </div>
 
    </section> <!-- Testimonials Section End-->
 
@@ -596,6 +592,8 @@
                         This is a course project for EECS 349 Machine Learning course,Northwestern University,2015 spring. We enjoy it a lot.
                         <li>For more info,please refer to:
                         <a href="http://www.cs.northwestern.edu/~ddowney/courses/349_Spring2015/">Machine Learning (EECS 349)</a></li>
+                        <li>For source code,please refer to:
+                        <a href="https://github.com/EricccccZhang">our github</a></li>
                         </span>
                      </li>
                   </ul>
